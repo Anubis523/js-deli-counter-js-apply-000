@@ -11,6 +11,12 @@ function takeANumber (lineOfCustomers, newCustomer) {
   return `Welcome, ${newCustomer}. You are number ${lineOfCustomers.indexOf(newCustomer)+1} in line.`;
 }
 
+function takeANumber (lineOfCustomers) {
+  //add new customer to the lineOfCustomers
+  lineOfCustomers.push (newCustomer);
+  return `${lineOfCustomers.indexOf(newCustomer)+1}`;
+}
+
 function nowServing (line) {
   return (line.length >= 1)
     ? `Currently serving ${line.shift()}.`
