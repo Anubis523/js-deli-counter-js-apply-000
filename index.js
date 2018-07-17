@@ -4,6 +4,7 @@
 // Pass an array as a function parameter
 
 var katzDeli = [];
+let members = 0;
 
 function takeANumber (lineOfCustomers, newCustomer) {
   //add new customer to the lineOfCustomers
