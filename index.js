@@ -14,8 +14,8 @@ function takeANumber (lineOfCustomers, newCustomer) {
 
 function takeANumber (lineOfCustomers) {
   //add new customer to the lineOfCustomers
-  lineOfCustomers.push (newCustomer);
-  return `${lineOfCustomers.indexOf(newCustomer)+1}`;
+  lineOfCustomers.push (++members);
+  return `${members}`;
 }
 
 function nowServing (line) {
